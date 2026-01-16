@@ -4,3 +4,5 @@ _site/
 renv/library/
 data/raw/
 data/processed/*.parquet
+
+/.quarto/

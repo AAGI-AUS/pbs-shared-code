@@ -5,7 +5,7 @@
 # ------------------------------------------------------------
 
 PUBLISHED_CSV_URL <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vQrMbNgIBmkS9Vgy-AWpHkYiCwqEW_IsE0jvUWMqTC2ha_j50eS68uc1AYKzegViEMZs32buIQGf8R4/pub?gid=1344631779&single=true&output=csv"
-OUT_CSV <- "data/processed/submissions_raw.csv"
+OUT_CSV <- "data/raw/submissions_raw.csv"
 STAMP_FILE <- "data/processed/last_refresh.txt"
 
 # ------------------------------------------------------------

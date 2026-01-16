@@ -1,0 +1,31 @@
+---
+title: "Browse the Database"
+execute:
+  freeze: false
+  echo: false
+format:
+  html:
+    code-fold: false
+---
+
+```{r}
+#| include: false
+library(here)
+library(readr)
+library(dplyr)
+library(DT)
+
+df <- read_csv(here("data/processed/submissions_cleaned.csv"), show_col_types = FALSE)
+```
+
+```{r}
+datatable(
+  df,
+  filter = "top",
+  rownames = FALSE,
+  options = list(
+    pageLength = 25,
+    scrollX = TRUE
+  )
+)
+```
